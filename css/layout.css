@@ -1,0 +1,39 @@
+
+body {
+	font-family: source-sans-pro;
+	background-color: #1f1f1f;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+
+.container{
+	
+    background-color: aqua;
+}
+header{
+    background-color: gray;
+}
+header li{
+    background-color: white;
+}
+@media (max-width: 767px){
+}
+.banner {
+	background-color: #98D6E7;
+	background-image: url(../images/parallax.png);
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
