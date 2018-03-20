@@ -1,2 +1,2 @@
-# Fisken.github.io
-The main page of Fisken.
+# Fisken咸鱼社网站
+在地址栏输入www.fisken.club
