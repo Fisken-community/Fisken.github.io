@@ -15,6 +15,7 @@
 	text-align: center;
 	margin-top: 10px;
 	background-color: white;
+	height: 330px;
 }
 
 /* Common style */
@@ -45,9 +46,32 @@
 	backface-visibility: hidden;
 }
 
+.show_area{
+	position: absolute;
+	top: 1370px;
+	width: 90%;
+	height: 500px;
+	margin: 10px auto 10px auto;
+}
 
-
-
+section img{
+	width: 500px;
+	height: 400px;
+}
+section.article_1 {
+	width: 500px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px 0px 10px 20px;	
+	float:left;
+}
+section.article_2 {
+	width: 500px;
+	height: 400px;
+	padding: 0px;
+	margin: 0px 20px 10px 0px;
+	float: right;
+}
 
 
 /*---------------*/
@@ -108,4 +132,10 @@ figure.effect{
 	text-align: left;
 	cursor: pointer;
 }
+
+
+
+
+
+
 

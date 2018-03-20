@@ -7,6 +7,7 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
+	height: 2500px;
 }
 
 header{
@@ -26,10 +27,11 @@ header{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
+	height: 90%;
 	background-color: #FFFFFF;
 	padding-top: 20px;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .container .top_bar_a {
@@ -60,11 +62,17 @@ header{
 /* Parallax Section */
 .container .community_banner {
 	background-color: #98D6E7;
-	background-image: url(../images/parallax.png);
+	background-image: url(../images/parallax.png), -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(170,170,170,1.00) 100%);
+	background-image: url(../images/parallax.png), -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(170,170,170,1.00) 100%);
+	background-image: url(../images/parallax.png), -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(170,170,170,1.00) 100%);
+	background-image: url(../images/parallax.png), linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(170,170,170,1.00) 100%);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
+	position: absolute;
+	margin-top: 20px;
+	width: 90%;
 }
 
 
