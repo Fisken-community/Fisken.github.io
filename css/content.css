@@ -1,3 +1,111 @@
-nav ul li {
-	font-size: 18px;
+	
+	
+
+.reference_a {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 10px;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	background-color: white;
 }
+
+/* Common style */
+.reference_a figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	background: #404040;
+	text-align: left;
+	cursor: pointer;
+	margin: 0px;
+}
+
+.reference_a figure img {
+	display: block;
+	opacity: 0.8;
+	width: 200px;
+	margin-top: 0;
+}
+
+.reference_a figure figcaption {
+	padding: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+
+
+
+
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+.reference_a figure figcaption::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	content: '';
+	opacity: 0;
+	-webkit-transform: translate3d(0,50%,0);
+	transform: translate3d(0,50%,0);
+}
+
+
+.reference_a figure.effect figcaption::before,
+figure.effect p {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	width: 200px;
+}
+
+figure.effect p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 40px;
+	width: 200px;
+	opacity: 0;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+	text-align: left;
+	-moz-border-end-width: 200px;
+}
+
+figure.effect :hover figcaption::before ,
+figure.effect :hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect{
+	width: 200px;
+}
+.reference_a .effect_0 {
+
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	background: #404040;
+	text-align: left;
+	cursor: pointer;
+}
+
